@@ -94,7 +94,7 @@ expect(mukeshBooks).toHaveLength(2); //Assertion
 
 
 
-// 6) Calculate total price of all books
+// 6) Calculate total price of all the books
 
 let totalPrice:number=0;
 
@@ -110,5 +110,4 @@ for(let row of allRowData.slice(1))   // slice(1) --> skip header row
 console.log("Total price: ",totalPrice)
 
 expect(totalPrice).toBe(7100); //Assertion
-
 })

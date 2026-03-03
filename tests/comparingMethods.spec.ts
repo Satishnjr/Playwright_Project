@@ -28,7 +28,7 @@ test("Comparing methods", async({page})=>{
  */
 
 
-//2)  allInnerText() Vs allTextContent()
+//2)  allInnerText() Vs. allTextContent()
 
 /*
 console.log("**** Comparing allInnerText() Vs allTextContent() *****")
