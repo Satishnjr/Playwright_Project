@@ -29,7 +29,7 @@ for(const row of rows)
     }
 }
 
-//Step2: Compare it with value in the yellow label.
+//Step2: Compare it with value in the yellow label
 let yellowboxtext: string=await page.locator("#chrome-cpu").innerText();
 console.log("Chrome CPU load from yellow box:",yellowboxtext );
 

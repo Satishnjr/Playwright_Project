@@ -83,5 +83,4 @@ test.only("Search for specific data in a table", async ({page})=>{
         console.log("No Rows found with search text")
     }
 
-
 })
